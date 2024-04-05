@@ -1,10 +1,21 @@
 {
-  "routes": [
-    {
-      "path": "/",
-      "page": "index",
-      "routeType": "page",
-      "layout": "main"
-    }
-  ]
+    "routes": [
+        {
+            "path": "/",
+            "page": "index",
+            "routeType": "page",
+            "layout": "index"
+        },
+        {
+            "path": "/Index",
+            "page": "Index",
+            "layout": "Index"
+        },
+        {
+            "path": "/index",
+            "page": "index",
+            "routeType": "page",
+            "layout": "index"
+        }
+    ]
 }
